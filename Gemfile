@@ -12,6 +12,8 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+gem 'simple_form', '>= 3.1.0.rc1'
+gem 'activerecord-tableless'
 gem 'bootstrap-sass'
 gem 'high_voltage'
 group :development do
